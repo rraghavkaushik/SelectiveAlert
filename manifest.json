@@ -1,0 +1,23 @@
+{
+   "manifest_version" : 2,
+   "name" : "SelectiveAlert",
+   "version" : "1.0.0",
+   "permissions" : [
+        "identity",
+        "identity.email",
+        "notifications",
+        "storage",
+        "https://www.googleapis.com/"
+   ],
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+   },
+   "oauth2": {
+      "client_id": "1027127631898-2pp43r8r8n4r0hgq93fcc4ddurjv6nv3.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/gmail.readonly"
+      ]
+   }
+}
+
